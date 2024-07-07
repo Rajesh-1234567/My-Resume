@@ -1,8 +1,8 @@
 %-------------------------
 % Resume in Latex
-% Author : Jake Gutierrez
+% Author: Jake Gutierrez
 % Based off of: https://github.com/sb2nov/resume
-% License : MIT
+% License: MIT
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
@@ -20,18 +20,12 @@
 \usepackage{tabularx}
 \input{glyphtounicode}
 
-
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -39,35 +33,16 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-% Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
-
-\urlstyle{same}
-
-\raggedbottom
-\raggedright
-\setlength{\tabcolsep}{0in}
-
 % Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-% Ensure that generate pdf is machine readable/ATS parsable
+% Ensure that generated PDF is machine-readable/ATS-parsable
 \pdfgentounicode=1
 
-%-------------------------
 % Custom commands
-\newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
-}
-
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-2pt}}}
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -75,24 +50,12 @@
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
 }
-
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
     \end{tabular*}\vspace{-7pt}
 }
-
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
@@ -102,112 +65,80 @@
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \begin{document}
 
 %----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
-
 \begin{center}
     \textbf{\Huge \scshape RAJESH KUMAR JENA} \\ \vspace{1pt}
-    \small +91-7815010734 $|$ \href{mailto:x@x.com}{\underline{getrajeshkumarjena@gmail.com}} $|$ 
-    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/rajesh-kumar-jena}} $|$
-    \href{https://github.com/...}{\underline{github.com/Rajesh-1234567}}
+    \small +91-7815010734 $|$ \href{mailto:getrajeshkumarjena@gmail.com}{\underline{getrajeshkumarjena@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/rajesh-kumar-jena}{\underline{linkedin.com/in/rajesh-kumar-jena}} $|$
+    \href{https://github.com/Rajesh-1234567}{\underline{github.com/Rajesh-1234567}}
 \end{center}
 
-
 %-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
+\section{\textbf{EDUCATION}}
+\resumeSubHeadingListStart
     \resumeSubheading
-      {International Institute of Information Technology}{Bhubanewar, Odisha}
-      {Bachelor of technology in Computer Science, 2nd year}{Nov. 2022 -- April 2026}
-      \resumeItem{Course Work : Design and analysis, Data Structure, Algorithms, OOPS, MicroProcessor, Digital Electronics, Machine Learning}
-  \resumeSubHeadingListEnd
-
+      {International Institute of Information Technology}{Bhubaneswar, Odisha}
+      {Bachelor of Technology in Computer Science and Engineering, 2nd year}{Nov. 2022 -- April 2026}
+      \resumeItem{\textbf{Coursework:} \textbf{Design and Analysis, Data Structures, Algorithms, OOP, DBMS,Machine Learning, Deep Learning, Gen AI, Data Science}}
+\resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
-\section{Experience}
-  \resumeSubHeadingListStart
-
+\section{\textbf{EXPERIENCE}}
+\resumeSubHeadingListStart
     \resumeSubheading
-      {Summer Intern and Trainee}{June 2023 - Sept 2023 }
-      {Evable India pvt. Ltd (Remote)}{Bhubaneswar, Odisha}
+      {Summer Data Engineer Intern}{May 2024 - July 2024}
+      {Celebal Technologies (Remote)}{Jaipur, Rajasthan}
       \resumeItemListStart
-        \resumeItem{Spearheaded the design and implementation of Project , a groundbreaking initiative aimed at seamlessly connecting users and optimizing payment workflows.}
-        \resumeItem{Worked collaboratively within a dynamic team, fostering effective communication and contributing to a positive work environment.Acquired a profound understanding of software development methodologies, enhancing my proficiency.}
+        \resumeItem{During the 2-month internship , I processed large datasets, improving data quality by 30 percent and using \textbf{SQL} to provide actionable insights for over 5 projects. I also conducted \textbf{Exploratory Data Analysis (EDA)} to uncover critical patterns and trends and collaborated with the analysis team to develop a machine learning model achieving over 90 percent accuracy. Additionally, I developed and deployed 5+ \textbf{chatbots} for clients by using \textbf{LLM} models like \textbf{OpenAI's and Gemini Pro}, worked with frameworks like \textbf{LangChain}, and used \textbf{Python} for various tasks .}
       \resumeItemListEnd
-      
-% -----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
-
-    \resumeSubheading
-      {Technical Head}{Sep. 2023 -- Present}
-      {Coding Ninjas Student Chapter IIIT BBSR, GeeksForGeeks StudentChapter IIIT BBSR}{Bhubaneswar, Odisha}
-      \resumeItemListStart
-        \resumeItem{As the Technical Head of various Student Chapter at IIIT Bhubaneswar, I have spearheaded numerous initiatives aimed at fostering a culture of coding excellence and technical innovation among students. Through my leadership, I have played a pivotal role in organizing coding events, conducting coding sessions, and overseeing the development and maintenance of the chapter's website}
-    \resumeItemListEnd
-    \resumeSubheading
-      {Student Ambassador}{Jan. 2023 -- Present}
-      {Microsoft, GeeksForGeeks, Unstop, InternShala ISP, Nss IIT delhi}{Remote}
-
-  \resumeSubHeadingListEnd
-
+\resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
-\section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-      {\textbf{HarvestHarbor} $|$ \emph{Flask, Python, Streamlit, Tensorflow, HTML, CSS, JS, Etheriun, Sapolia}}{Mar 2024}
+\section{\textbf{PROJECTS}}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{WildfireCatch - Wildfire Detection and Response System} $|$ \emph{\textbf{Django,JavaScript,TensorFlow, SQLite,Azure}}}{}
           \resumeItemListStart
-            \resumeItem{Led the comprehensive development of Harvest Harbor, a pioneering agricultural platform intertwining machine learning models, blockchain technology, and user-friendly interfaces. Orchestrated the integration of four ML models to predict fertilizer usage, recommend crops, detect diseases, and forecast yields. Additionally, crafted a seamless user interface employing HTML, CSS, and JavaScript, facilitating direct connections to government schemes and enabling farmers to buy and sell products securely through blockchain integration.}
+            \resumeItem{Implemented a real-time wildfire detection system using \textbf{TensorFlow and Python} for machine learning model development, integrated with geospatial remote sensing images. Utilized \textbf{HTML, CSS, JavaScript, Bootstrap, Django, MapTiler API, and Leaflet.js }for frontend and backend development, enabling dynamic mapping and visual representation of fire locations and safety zones. Integrated \textbf{SQLite} for database management and deployed the system on \textbf{Azure}.}
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{YouTube Transcribe Summarizer LLM Application} $|$ \emph{\textbf{YouTube Transcript API,Streamlit,GenAI (Gemini Pro)}}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a web application using Streamlit and Python, integrating APIs like the YouTube Transcript API and Google's Generative AI (Gemini Pro). The application extracts transcripts from YouTube videos, summarizes them using a large language model \textbf{(LLM)}, and presents the summary to the user in real-time.}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{WhatsApp Chat Analyzer} $|$ \emph{Python, Streamlit, Matplotlib, Pandas,WordCloud, Seaborn}}{Feb 2024 }
+          {\textbf{WhatsApp Chat Analyzer} $|$ \emph{\textbf{Python, Streamlit, Matplotlib, Pandas, WordCloud, Seaborn}}}{}
           \resumeItemListStart
-            \resumeItem{The WhatsApp Chat Analyzer is a funny project, built with Python and libraries like Plotly and Pandas, analyzes chat data for insights. It offers features like message frequency analysis, word trends, and emoji analysis, aiding in child safety, parental monitoring, and mental health assessment. Deployed on Render and GitHub, it ensures easy access and data privacy.}
+            \resumeItem{The WhatsApp Chat Analyzer is built with Python and libraries like \textbf{Plotly and Pandas}, analyzing chat data for insights such as message frequency, word trends, and emoji analysis. Deployed on \textbf{Render and GitHub}, it ensures easy access and data privacy, contributing to child safety, parental monitoring, and mental health assessment.}
           \resumeItemListEnd
-    \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
 
-
-
-%
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
+%-----------TECHNICAL SKILLS-----------
+\section{\textbf{TECHNICAL SKILLS}}
+\begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Python, C/C++, SQL , JavaScript, HTML/CSS} \\
-     \textbf{Frameworks}{: Flask, Django, Streamlit, Plotly} \\
-     \textbf{Developer Tools}{: Git/Github, Azure, VS Code, Visual Studio, PyCharm, Jupyter, Android Studio, canva, Codeblocks} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, Requests}\\
-     \textbf{Others}{: DBMS, Proble Solving, Project Management, Leadership, Teamwork, Public Speaking, Analytical Thinking}
+     \textbf{Programming Languages}{: \textbf{Java, Python, C/C++, SQL}, JavaScript, HTML/CSS} \\
+     \textbf{Frameworks}{: \textbf{Streamlit, TensorFlow, Keras, PyTorch, LangChain, Google Gemini Pro, OpenAI}} \\
+     \textbf{Developer Tools}{: \textbf{Git/Github}, Azure, Visual Studio, PyCharm, Jupyter, Canva, CodeBlocks} \\
+     \textbf{Libraries}{: \textbf{pandas, NumPy, Matplotlib, Seaborn, Scikit-learn}} \\
+     \textbf{Others}{: DBMS, Problem Solving, Project Management, Leadership, Teamwork, Public Speaking, Analytical Thinking}
     }}
- \end{itemize}
+\end{itemize}
 
-
-%-----------Achievements-----------
-\section{Achievements}
- \begin{itemize}[leftmargin=0.15in, label={}]
+%-----------ACHIEVEMENTS-----------
+\section{\textbf{ACHIEVEMENTS}}
+\begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{- 4 Star Coder at CodeChef, rating - 1887 (Solved more than 250+ questions and have some global rank of 13, 21, 28, 47)} \\
-     \textbf{- Leetcode, rating - 1592 (500+ questions solved)} \\
-     \textbf{- Grand Master at CodeStudio, rating- 3000+ (1600+ solved)}\\
-     \textbf{- HACKATHONS : Geekathon (top 8), Hackfest (Top 4)  }\\
-     \textbf{- Campus Ambassador of Microsoft, GeeksForGeeks, Unstop, Nss IIT Delhi }\\
-     \textbf{- Top Programming voice award by Linkedin (having 15k+ network connections ) }\\
-     \textbf{- Google KickStart global rank - 3063}\\
-     
+    \textbf{- Selected as one of 300 from over 85,000 applicants in Amazon's ML Summer of School 2024} \\
+    \textbf{- LeetCode Knight, Rating: 1831 (700+ questions solved, top 5\% worldwide)} \\
+    \textbf{- CodeChef 4 Star Coder, Rating: 1887 (250+ problems solved, global contest rank)} \\
+    \textbf{- Grand Master at CodeStudio, Rating: 3091 (college topper, achiever badges)} \\
+    \textbf{- Campus Ambassador of Microsoft, GeeksForGeeks, NSS IIT Delhi} \\
+    \textbf{- Google KickStart Global Rank: 3063} \\
+    \textbf{- HACKATHONS: Smart Speedathon (Runner Up), The Innovation (Runner Up), Geekathon (Top 8 out of 60 teams), Hackfest (Top 4 out of 120 teams), GeoHack (Finalist)} \\
     }}
- \end{itemize}
-%
+\end{itemize}
+
 \end{document}
